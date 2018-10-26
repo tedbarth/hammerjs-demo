@@ -1,5 +1,5 @@
-import Hammer from '@egjs/hammerjs';
 // import Hammer from 'hammerjs';
+import Hammer from '@egjs/hammerjs';
 
 window.addEventListener('load', () => {
 

@@ -23,3 +23,8 @@ npm run-script watch
 ## Start
 
 Open `canttouchthis.html` in your browser.
+
+## Current bugs to demonstrate
+
+ * [No event is called when using together with webpack #6
+](https://github.com/naver/hammer.js/issues/6) 
