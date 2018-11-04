@@ -1,9 +1,8 @@
 import Hammer from '@egjs/hammerjs';
-// import Hammer from 'hammerjs';
 
 window.addEventListener('load', () => {
 
-  const hammer = new Hammer(document.body);
+  const hammer = new Hammer(document.querySelector('.overlay'));
 
   hammer.get('pan').set({direction: Hammer.DIRECTION_ALL});
 
@@ -17,7 +16,7 @@ window.addEventListener('load', () => {
 
   hammer.on('pan', e => {
     console.log('pan');
-    let div = document.querySelector('div');
+    let div = document.querySelector('.box');
     div.style.transform = `translate(${offset.x + e.deltaX}px, ${offset.y + e.deltaY}px)`;
   });
 
