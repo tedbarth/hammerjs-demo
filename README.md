@@ -26,6 +26,6 @@ Open `canttouchthis.html` in your browser.
 
 ## Current bugs to demonstrate
 
- * [Page scrolling not deactivated on Firefox Mobile when panning on fixed overlay div](https://github.com/naver/hammer.js/issues/8) 
+ * [Page scrolling not deactivated on Firefox Mobile when panning on fixed overlay div #8](https://github.com/naver/hammer.js/issues/8) 
 
  * ~[No event is called when using together with webpack #6](https://github.com/naver/hammer.js/issues/6)~
