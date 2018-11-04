@@ -1,6 +1,6 @@
 # hammerjs-demo
 
-This project does exist only for debugging of library [@egjs/hammerjs](https://github.com/naver/hammer.js) in combination with webpack.
+This project does exist only for debugging purposes of library [@egjs/hammerjs](https://github.com/naver/hammer.js) in combination with webpack.
 
 It will be removed when every bug is fixed.
 
@@ -26,5 +26,6 @@ Open `canttouchthis.html` in your browser.
 
 ## Current bugs to demonstrate
 
- * [No event is called when using together with webpack #6
-](https://github.com/naver/hammer.js/issues/6) 
+ * [Page scrolling not deactivated on Firefox Mobile when panning on fixed overlay div](https://github.com/naver/hammer.js/issues/8) 
+
+ * ~[No event is called when using together with webpack #6](https://github.com/naver/hammer.js/issues/6)~
